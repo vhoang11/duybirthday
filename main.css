@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-color: lightgrey;
+  color: darkgreen;
+}
+
+#bro-img {
+  width: 400px;
+  border-radius: 50%;
+  border: 5px solid darkgreen;
+}
+
+.gift-img {
+  margin: 20px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("giftimage.jpg");
+  background-size: cover;
+}
+
+#gift-img-happy:hover {
+  background-image: url("https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif");
+  background-size: cover;
+}
+
+#gift-img-hot:hover {
+  background-image: url("https://media.giphy.com/media/AveIn4bVWMVjtq52ud/giphy.gif");
+  background-size: cover;
+}
+
+#gift-img-badass:hover {
+  background-image: url("https://media.giphy.com/media/4M4LzMbq9sGBO/giphy.gif");
+  background-size: cover;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("https://media.giphy.com/media/l0MYuiI6EHrZcF8fC/giphy.gif");
+  background-size: cover;
+}
+
+#footer {
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+a {
+  color: darkorchid;
+}
